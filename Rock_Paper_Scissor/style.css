@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.title {
+  text-align: center;
+  height: 6%;
+  background-color: chocolate;
+  color: white;
+  padding: 8px 0;
+}
+#start-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 93vh;
+}
+
+.start-btn{
+    width: 300px;
+    height: 80px;
+    font-size: 35px;
+    font-weight: 700;
+    background-color: #030637;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.RPS {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 93vh;
+  width: 100vw;
+  background-color: whitesmoke;
+}
+
+.game {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.human {
+  width: 49.5%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: lightblue;
+  border-radius: 35px;
+}
+
+.computer {
+  width: 49.5%;
+  height: 100%;
+  background-color: lightblue;
+  color: black;
+  font-size: larger;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 35px;
+}
+
+.btn {
+  width: 30%;
+  height: 40px;
+  border: none;
+  font-size: 18px;
+  background-color: rgb(225, 240, 218);
+  color: black;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: rgba(225, 240, 218, 0.6);
+}
+
+#result{
+    font-size: 40px;
+    align-items: center;
+}
